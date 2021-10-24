@@ -77,28 +77,28 @@ WSGI_APPLICATION = 'hello_django.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 
-DATABASES = {
-    "default": {
-        "ENGINE": 'django.db.backends.postgresql',
-        "NAME": 'hello_django_dev',
-        "USER": 'hello_django',
-        "PASSWORD": 'hello_django',
-        "HOST": 'db',
-        "PORT": 5432,
-    }
-}
-
-#  connect to postgresql server 
 # DATABASES = {
 #     "default": {
 #         "ENGINE": 'django.db.backends.postgresql',
-#         "NAME": 'authentication',
-#         "USER": 'postgres',
-#         "PASSWORD": 'Phananhtu1',
-#         "HOST": 'localhost',
+#         "NAME": 'hello_django_dev',
+#         "USER": 'hello_django',
+#         "PASSWORD": 'hello_django',
+#         "HOST": 'db',
 #         "PORT": 5432,
 #     }
 # }
+
+#  connect to postgresql server 
+DATABASES = {
+    "default": {
+        "ENGINE": 'django.db.backends.postgresql',
+        "NAME": 'd71h2ju0ml934h',
+        "USER": 'flpqhwupgznsgd',
+        "PASSWORD": 'a344b0634a412aaeafe8f12f3cdb2355aa170e39c4b5d1ab32fbbc8cfd8e8208',
+        "HOST": 'ec2-3-215-137-131.compute-1.amazonaws.com',
+        "PORT": 5432,
+    }
+}
 
 
 # Password validation
