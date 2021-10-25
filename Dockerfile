@@ -15,4 +15,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD python manage.py runserver
+# CMD ["gunicorn", "--bind", ":8000", "--workers", "3", "hello_django.wsgi:application"]
+
+CMD gunicorn hello_django.wsgi:application --bind 0.0.0.0:$PORT
