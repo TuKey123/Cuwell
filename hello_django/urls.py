@@ -24,7 +24,7 @@ swagger = [
 ]
 
 urlpatterns = [
-    path('',include(swagger)),
+    path('', include(swagger)),
     path('admin/', admin.site.urls),
     path('apis/v1/', include(urls))
 ]
